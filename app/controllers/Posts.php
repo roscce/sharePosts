@@ -152,7 +152,7 @@
                 } 
 
                 if($this->postModel->deletePost($id)){
-                    flash('post_message', 'Post Deleted');
+                    flash('post_message', 'Post Removed');
        
                     redirect('posts');
                 } else {
